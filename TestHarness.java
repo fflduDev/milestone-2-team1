@@ -147,12 +147,6 @@ public class TestHarness {
 		phonebook.put(p4, p4.getPhonebookEntries());
 		phonebook.put(p5, p5.getPhonebookEntries());
 		
-		// below is the testing code: 
-		phonebook.put(p1, p1.getPhonebookEntries()); // put ultimately calls overriden hashCode
-		phonebook.put(p2, p2.getPhonebookEntries());
-		phonebook.put(p3, p3.getPhonebookEntries());
-		phonebook.put(p4, p4.getPhonebookEntries());
-		phonebook.put(p5, p5.getPhonebookEntries());
 
 
 	}
