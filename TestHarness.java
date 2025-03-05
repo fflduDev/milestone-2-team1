@@ -148,6 +148,11 @@ public class TestHarness {
 		phonebook.put(p5, p5.getPhonebookEntries());
 		
 		// test
+		phonebook.put(p1, p1.getPhonebookEntries()); 
+		phonebook.put(p2, p2.getPhonebookEntries());
+		phonebook.put(p3, p3.getPhonebookEntries());
+		phonebook.put(p4, p4.getPhonebookEntries());
+		phonebook.put(p5, p5.getPhonebookEntries());
 
 
 	}
